@@ -220,7 +220,7 @@ module.exports = {
             if (userData?.badges?.includes(badge.id)) return interaction.editReply({
                 embeds: [{
                     title: "❌ Cannot Add Badge",
-                    description: "The provided user already have this badge!"
+                    description: "The provided user already has this badge!"
                 }]
             });
 
